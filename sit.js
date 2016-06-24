@@ -34,4 +34,28 @@ document.addEventListener("DOMContentLoaded", function(){
          }
          allElementsList[index].classList.add("visible");
      }
-  }); 
+
+
+/*SHOW HIDE BOX**********************/
+
+    var picOne = document.querySelector(".picone");
+    var picTwo = document.querySelector(".pictwo");
+    
+    var pClair = document.getElementById("p_clair");
+    var pMargarita = document.getElementById("p_margarita");
+
+    
+    picOne.addEventListener("mouseover", function(event) {
+        pClair.classList.add("invisible");
+    });
+    picTwo.addEventListener("mouseover", function(event) {
+        pMargarita.classList.add("invisible");
+    });
+    
+    picOne.addEventListener("mouseout", function(event) {
+        pClair.classList.remove("invisible");
+    });
+    picTwo.addEventListener("mouseout", function(event) {
+        pMargarita.classList.remove("invisible");
+    });
+}); 

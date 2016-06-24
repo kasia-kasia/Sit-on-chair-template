@@ -213,6 +213,8 @@ margin-bottom: 35px;
 
 .slider ul {
     list-style:none;
+    display: inline-block;
+    float:left;
 }
 
 .slider li {
@@ -301,7 +303,15 @@ margin-bottom: 35px;
 }
 
 
+/*SHOW HIDE BOX****/
+p#p_margarita.invisible {
 
+    display: none;
+    
+}
+p#p_clair.invisible {
+    display :none;
+}
 /*SECTION PRICES*****************************dodac kółka*/
 
 .prices {
