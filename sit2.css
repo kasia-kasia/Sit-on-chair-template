@@ -560,7 +560,7 @@ p#p_clair.invisible {
 }
 
 .contact article {
-	height: 450px;
+	height: 550px;
 	width: 1056px;
 	margin: 0 auto 0 auto;
 	padding-top: 40px;
@@ -654,14 +654,15 @@ textarea {
 	color: #ffffff;
     width: 370px;
     border-radius: 12px;
-    margin-left: 32px;
+    
     padding-top: 18px;
     padding-bottom: 18px;
-    margin-top: 31px;
+    
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
 }
+/*FORMS**************************************************************/
 
 
 /*FOOTER*/
